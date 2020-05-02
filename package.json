@@ -1,0 +1,25 @@
+{
+  "name": "katagoshi",
+  "version": "1.0.0",
+  "description": "Katagoshi is a simple monitoring tool, that makes screenshots of your screen from time to time and saves them in a specified folder.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loie/Katagoshi.git"
+  },
+  "keywords": [
+    "monitoring"
+  ],
+  "author": "Lorenz Merdian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/loie/Katagoshi/issues"
+  },
+  "homepage": "https://github.com/loie/Katagoshi#readme",
+  "dependencies": {
+    "screenshot-desktop": "^1.12.0"
+  }
+}
