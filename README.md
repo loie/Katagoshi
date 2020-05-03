@@ -10,10 +10,10 @@ On Linux this needs imagemagick.
 
 Debian-based distributions:
 
-sudo apt-get install imagemagick
+	sudo apt-get install imagemagick
 
 Arch-based distros:
 
-sudo pacman -S imagemagick
+	sudo pacman -S imagemagick
 
 Other operation systems don't need anything else.
