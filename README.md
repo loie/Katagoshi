@@ -3,4 +3,5 @@ Katagoshi is a simple monitoring tool that makes screenshots of your screen from
 
 ## Installing Katagoshi
 You can just run
+
 	npm install
