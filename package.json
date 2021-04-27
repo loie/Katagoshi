@@ -20,6 +20,9 @@
   },
   "homepage": "https://github.com/loie/Katagoshi#readme",
   "dependencies": {
-    "screenshot-desktop": "^1.12.0"
+    "forever": "^3.0.4",
+    "nodemailer": "^6.5.0",
+    "screenshot-desktop": "^1.12.3",
+    "uuid": "^8.3.2"
   }
 }
