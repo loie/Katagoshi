@@ -4,14 +4,36 @@ Katagoshi is a simple monitoring tool that makes screenshots of your screen from
 ## Installing Katagoshi
 Run
 
-	npm install
+````
+$ npm install
+````
 
-to update the dependencies, fill in your credentials in the source code and then run
+to update the dependencies, then run
 
+````
+$ node index.js
+````
 
-	node index.js
+to start katagoshi.
 
-to let katagoshi run once.
+It doesn't yet run in the background by itself, but we're working on that. You
+can run katagoshi in the background using `forever`:
 
-It doesn't yet run in the background and take regular screenshots, nor does it send them automatically.
-We're working on that.
+````
+$ forever start index.js
+````
+
+## Providing credentials
+
+Katagoshi expects a file named `config.json` at `/home/your_username/.config/katagoshi`.
+This file should look like this:
+
+````
+{
+	"host": "smtp.your_email_provider.com",
+	"port": 587,
+	"user": "your_email@provider.com",
+	"pass": "your_password",
+	"partner": "your_partners_mail@provider.com"
+}
+````
